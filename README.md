@@ -9,6 +9,10 @@ Trying to make an LLM do a chapter-by-chapter analysis of a book.
 
 This is a BASH script that tries to parse the chapters of the book and send them to the bot for review.
 
+Depends on the chapters being marked as \[CHAPTER 1\], \[CHAPTER 2\] ... \[CHAPTER 10\], etc. otherwise it won't parse them properly.
+
+May do a terrible job.
+
 
 ### llm-python-file.py
 
